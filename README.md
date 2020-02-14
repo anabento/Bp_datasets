@@ -15,3 +15,7 @@ Bp-example-datasets.tsv -- Year of isolation, state, and public accession number
 MN – 260 isolates – 360 variable sites
 NY – 165 isolates – 313 variable sites
 OR – 201 isolates – 254 variable sites
+
+For each state dataset separately: (1) download alignments *.0[1234].aln.gz, (2) gunzip, (3) concatenate. Each ‘slice’ is an intact fasta alignment, so the order you recombine them doesn’t matter.
+ 
+Also included are the variable-site only alignments and corresponding newick trees for context. SNPs were called as described in the msystems paper (in brief, read mapping to C734 via snippy v4 and the aligned ‘genomes’ are simply imputed from the reference)
